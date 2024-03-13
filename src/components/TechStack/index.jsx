@@ -11,6 +11,8 @@ import figma from "../../assets/images/figma.svg";
 import mui from "../../assets/images/mui.svg";
 import js from "../../assets/images/js.svg";
 import git from "../../assets/images/git.svg";
+import docker from "../../assets/images/docker.svg";
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -169,13 +171,12 @@ const TechStack = ({color}) => {
       className={`h-[calc(100vh_+_20rem)] w-full bg-${color}  relative overflow-hidden`}
     >
       <img
-        src={react}
-        alt="tech"
-        id="react-img"
-        className="tech 2xl:h-28 2xl:w-28 xl:h-24 xl:w-24 lg:h-20 lg:w-20 md:h-20 md:w-20 sm:h-16 sm:w-16 vvs:h-14 vvs:w-14 w-12 h-12 absolute 2xl:top-[260px] 2xl:left-[300px]  1xl:top-[240px] 1xl:left-[300px] 1/2xl:top-[220px] 1/2xl:left-[300px]   xl:top-[260px] xl:left-[300px] lg:top-[200px] lg:left-[290px] md:top-[200px] md:left-[200px] sm:top-[300px] sm:left-[180px] vvs:top-[300px] vvs:left-[120px] top-[340px] left-[60px]  opacity-1 rotate-[10deg]"
-      />
-      <img
-        src={tailwind}
+  src={react}
+  alt="tech"
+  id="react-img"
+  className="tech 2xl:h-36 2xl:w-36 xl:h-32 xl:w-32 lg:h-28 lg:w-28 md:h-24 md:w-24 sm:h-20 sm:w-20 vvs:h-18 vvs:w-18 w-16 h-16 absolute 2xl:top-[260px] 2xl:left-[300px] 1xl:top-[240px] 1xl:left-[300px] 1/2xl:top-[220px] 1/2xl:left-[300px] xl:top-[260px] xl:left-[300px] lg:top-[200px] lg:left-[290px] md:top-[200px] md:left-[200px] sm:top-[300px] sm:left-[180px] vvs:top-[300px] vvs:left-[120px] top-[340px] left-[60px] opacity-1 rotate-[10deg]"
+/>
+<img  src={tailwind}
         alt="tech"
         id="tailwind-img"
         className="tech 2xl:h-28 2xl:w-28 xl:h-24 xl:w-24  lg:h-20 lg:w-20 md:h-20 md:w-20 sm:h-16 sm:w-16 vvs:h-14 vvs:w-14 w-12 h-12 absolute 2xl:top-[460px] 2xl:left-[400px] 1xl:top-[400px] 1xl:left-[350px] 1/2xl:top-[400px] 1/2xl:left-[360px] xl:top-[420px] xl:left-[360px] lg:top-[360px] lg:left-[320px] md:top-[340px] md:left-[230px] sm:top-[440px] sm:left-[100px] vvs:top-[440px] vvs:left-[40px] top-[490px] left-[40px] opacity-1 rotate-[-10deg]"
@@ -228,7 +229,11 @@ const TechStack = ({color}) => {
         id="css-img"
         className="tech 2xl:h-28 2xl:w-28 xl:h-24 xl:w-24  lg:h-20 lg:w-20 md:h-20 md:w-20 sm:h-16 sm:w-16 vvs:h-14 vvs:w-14 w-12 h-12 absolute  2xl:top-[140px] 2xl:right-[620px] xl:top-[440px] xl:right-[320px] lg:top-[480px] lg:right-[210px] md:top-[480px] md:right-[210px] sm:top-[400px] sm:right-[140px] vvs:top-[220px] vvs:right-[240px] top-[220px] right-[240px] opacity-1 rotate-[18deg]"
       />
-
+       <img
+  src={docker}
+  alt="tech"
+  className="tech 2xl:h-28 2xl:w-28 xl:h-24 xl:w-24 lg:h-20 lg:w-20 md:h-20 md:w-20 sm:h-16 sm:w-16 vvs:h-14 vvs:w-14 w-12 h-12 absolute 2xl:top-[140px] 2xl:right-[620px] xl:top-[440px] xl:right-[320px] lg:top-[480px] lg:right-[210px] md:top-[480px] md:right-[210px] sm:top-[400px] sm:right-[140px] vvs:top-[220px] vvs:right-[240px] top-[220px] right-[240px] opacity-0 rotate-18"
+/>
       <h1
         className="2xl:text-[8rem] font-Glimer-Outlined font-semibold xl:text-[7rem] lg:text-[6rem] md:text-[5rem] sm:text-[4rem] vvs:text-[3rem] text-[2.5rem] cursor-default absolute text-center sm:bottom-[40px] xl:bottom-[40px] bottom-[100px] opacity-100 leading-normal text-white/60"
         id="techstack-title"

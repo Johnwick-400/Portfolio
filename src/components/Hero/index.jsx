@@ -18,20 +18,14 @@ const phrases = [
   "still playing with this? 😂",
   "you can stop now.",
   "seriously.",
-  "checkout the website now ffs!",
+  "checkout the website now!",
 ];
 
 const letters = [
-  "I'm",
-  "developing",
-  "Creative",
-  "&",
-  "Interactive",
-  "webapps",
-  "🚀",
+  "I excel in crafting machine learning models and designing algorithms.🚀",
 ];
 
-const title = ["Hello!", "I'm", "Dev"];
+const title = ["Hello!", "I'm", "Pavan"];
 
 const Hero = ({color}) => {
   const [index, setIndex] = useState(0);
@@ -99,12 +93,20 @@ const Hero = ({color}) => {
             <div className="w-full flex md:flex-row flex-col justify-between items-center ">
               <div>
                 <p className=" text-white/60 font-Glimer-Light xl:text-[1.3rem] 2xl:text-[1.5rem] lg:text-base md:text-sm text-xs xl:leading-8 2xl:leading-9 lg:leading-6 leading-5 mb-6 md:mb-0">
-                  As a frontend developer, my expertise lies in creating
-                  seamless and intuitive user experiences. I specialize in using
-                  cutting-edge technologies to produce high-quality web
-                  applications. Specifically, I have vast knowledge of ReactJS
-                  and NodeJS, which allow me to build complex and dynamic
-                  applications with ease.
+                I invite you to explore the diverse range of projects and experiences that define my journey as a Software Developer. Let's connect and collaborate to build transformative solutions that shape the future of technology together.
+
+
+
+
+
+
+
+
+
+
+
+
+
                 </p>
               </div>
 

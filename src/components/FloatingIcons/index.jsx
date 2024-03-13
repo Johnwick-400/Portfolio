@@ -3,11 +3,14 @@ import github from "../../assets/images/github.svg";
 import linkedin from "../../assets/images/linkedin.svg";
 import gmail from "../../assets/images/gmail.svg";
 import { motion } from "framer-motion";
+import docker from "../../assets/images/docker.svg";
+
 
 const FloatingIcons = () => {
   return (
     <div className="z-[10] flex justify-between w-full items-center my-14">
-      <a href="mailto:devjain092002@gmail.com" className="social">
+      {/* Gmail Icon */}
+      <a href="mailto:pavantejveesam26@gmail.com" className="social">
         <motion.span
           animate={{ opacity: 1, scale: 1 }}
           initial={{ opacity: 0, scale: 0 }}
@@ -44,7 +47,9 @@ const FloatingIcons = () => {
           </motion.span>
         </motion.span>
       </a>
-      <a href="https://github.com/devjainofficial" target="_blank" className="social">
+
+      {/* Github Icon */}
+      <a href="https://github.com/Johnwick-400" target="_blank" className="social">
         <motion.span
           animate={{ opacity: 1, scale: 1 }}
           initial={{ opacity: 0, scale: 0 }}
@@ -81,8 +86,10 @@ const FloatingIcons = () => {
           </motion.span>
         </motion.span>
       </a>
+
+      {/* LinkedIn Icon */}
       <a
-        href="https://linkedin.com/in/devjainofficial/"
+        href="https://linkedin.com/in/pavantejveesam/"
         target="_blank"
         className="social"
       >
@@ -122,7 +129,47 @@ const FloatingIcons = () => {
           </motion.span>
         </motion.span>
       </a>
-    </div>
+
+      {/* New Icon 1 */}
+      <a href="#" className="social">
+        <motion.span
+          animate={{ opacity: 1, scale: 1 }}
+          initial={{ opacity: 0, scale: 0 }}
+          transition={{
+            duration: 0.5,
+            delay: 0.5,
+            type: "spring",
+            stiffness: 110,
+          }}
+          className="icon-wrapper rounded-full"
+        >
+          <motion.span
+            animate={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0, scale: 0 }}
+            transition={{
+              duration: 0.5,
+              delay: 1,
+              type: "spring",
+              stiffness: 100,
+            }}
+            className="icon-container rounded-full"
+          >
+            <motion.img
+              animate={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{
+                duration: 0.4,
+                delay: 1.4,
+              }}
+              src={docker}
+              alt="docker"
+              className="h-[3.5rem] w-[3.5rem]"
+            />
+          </motion.span>
+        </motion.span>
+      </a>
+
+        </div>
   );
 };
 
